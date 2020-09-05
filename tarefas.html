@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <script src="tarefas.js"></script>
+    <link href="tarefas.css" rel="stylesheet">
+
+</head>
+<body>
+    <center>
+        <div id="campo">
+            <div><h1>Tarefas</h1> </div>
+            <div><input type="text" placeholder="Descrição" id="desc"></div>
+            <button id="salvar" onclick="registrarTarefas()">Salvar</button>
+            <button id="listar" onclick="listarTarefas()">Listar</button>
+            <button id="limpar" onclick="limparLista()">Limpar lista</button>
+
+            <div id="saida"></div>
+        </div>
+    </center>
+</body>
+</html>

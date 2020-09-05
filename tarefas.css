@@ -1,0 +1,11 @@
+#campo{
+    padding: 25px, 15;
+    left: 500px;
+    display: inline-block;
+    border-style: solid;
+    border-color: blueviolet;
+}
+button{
+    width: 40%;
+    height: 30%;
+}
